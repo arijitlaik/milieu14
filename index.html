@@ -15,22 +15,27 @@
 		<script src="js/modernizr.custom.js"></script>
         
 	</head>
-	<body>
+	<body onload="window.setInterval('circ()',.5)">
 		<div class="container">
             
             <div class="demo-3">
             <div class="content">
                 <div id="large-header" class="large-header">
+                    
                     <canvas id="demo-canvas"></canvas>
+                     
                     <span class="main-title">
+                       
                         <h1>Milieu 2014 beta</h1>
                         <h2>A <a href="http://pusuc.org" target="_blank">PUSUC </a>Initiatve</h2>
-                        
                         <a href="#grid-gallery" class="button">explore</a>
+                       
                     </span>
+                     
                 </div>
             </div>
             </div>
+
 			
 			
 			<div id="grid-gallery" class="grid-gallery" >
@@ -256,6 +261,8 @@
 				</section><!-- // slideshow -->
 			
     </div>
+
+
             
             <footer></footer>
         </div>
@@ -271,8 +278,6 @@
 			new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
 			new CBPGridGallery( document.getElementById( 'grid-gallery1' ) );
 		</script>
-        
-		<script>
-		</script>
+        	
 	</body>
 </html>
