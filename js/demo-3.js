@@ -42,7 +42,7 @@
 
     function tweenTriangle(tri) {
         var t = Math.random()*(2*Math.PI);
-        var x = (200+Math.random()*1000)*Math.cos(t) + width*0.5;
+        var x = (200+Math.random()*800)*Math.cos(t) + width*0.5;
         var y = (200+Math.random()*200)*Math.sin(t) + height*0.5-20;
         var time = 4+3*Math.random();
 
