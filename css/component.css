@@ -23,6 +23,7 @@
 .grid-gallery figure img {
 	display: block;
 	width: 100%;
+    overflow:visible;
 }
 
 .grid-gallery figcaption h3 {
@@ -32,6 +33,7 @@
 
 .grid-gallery figcaption p {
 	margin: 0;
+    
 }
 
 /* Grid style */
