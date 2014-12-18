@@ -9,8 +9,8 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Raleway';
-    color: #3d6277;
-    background: #7b97a7;
+    color: #1e76a8;
+    background: #64a7cd;
     font-weight: 300;
 }
 
@@ -27,11 +27,9 @@ a:hover {
 
 .box
 {
-    
     background: #FFF59D;
     margin-bottom: 2em;
-    border: 2px solid transparent;
-   
+    box-shadow: 2px 3px 15px  2px black;
 }
 .box h1
 {
