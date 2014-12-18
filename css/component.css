@@ -306,15 +306,16 @@ span.nav-close:before {
 	.grid li {
 		width: 100%;
 	}
+    body{font-size: 12px}
 }
 /* Header */
 .large-header {
 	position: relative;
     overflow: hidden;
-	background: url(../img/large/COVERPHOTO.png),linear-gradient(to bottom, #1d1d41 0%, #ff9a50 110%);
-    background-size:100% auto;
-	background-repeat: no-repeat;
-	background-position: bottom,bottom;
+	background: url(../img/large/hot.png),url(../img/large/cover.svg),linear-gradient(to bottom, #1d1d41 0%, #ff9a50 110%);
+    background-size:20%,100% auto,auto;
+    background-repeat: no-repeat;
+	background-position: top right,bottom,bottom;
 	z-index: 1;
 }
 
@@ -335,7 +336,7 @@ span.nav-close:before {
 
 .demo-3 .main-title {
 	letter-spacing: 0.1em;
-    ; 
+    color: #ffeb3b; 
     
 
 }
@@ -350,16 +351,29 @@ span.nav-close:before {
     font-size: 1.5em;
    
 }
+
+
+.main-title a{
+color: #6889ff;
+transition: all 0.2 ease-in-out;
+}
+.main-title a:hover{
+    color:white;
+    transition: all 0.2s ease-in-out;
+    transition: all 0.3 ease-in-out;
+}
+
+
 .main-title h1{
    
     font-size: 4.2em;
     font-family: Londrina Outline, sans-serif;
     text-transform: capitalize;
 }
-.main-title h3{
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    font-size: 2em;
-    display: inline;
+.main-title h2{
+    font-weight: 200;
+    display: block;
+    font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem;
     text-align: center;
     
 }
@@ -372,6 +386,7 @@ span.nav-close:before {
 	{
 		font-size: 1em;
 	}
+    
 
 }
 

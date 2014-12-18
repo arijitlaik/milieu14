@@ -1,5 +1,5 @@
 /* General Blueprint Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
@@ -8,9 +8,10 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #47a3da;
+    font-family: 'Raleway';
+    color: #3d6277;
     background: #7b97a7;
+    font-weight: 300;
 }
 
 a {
@@ -23,46 +24,20 @@ a:hover {
 	color: #000;
 }
 
-.container > header {
-	width: 90%;
-	max-width: 69em;
-	margin: 0 auto;
-	padding: 2.875em 1.875em 1.875em;
-}
 
-
-
-@media screen and (max-width: 55em) {
-
-	.container > header h1,
-	.container > header nav {
-		float: none;
-	}
-
-	.container > header > span,
-	.container > header h1 {
-		text-align: center;
-	}
-
-	.container > header nav {
-		margin: 0 auto;
-	}
-
-	.container > header > span {
-		text-indent: 30px;
-	}
-}
-#box
+.box
 {
-    box-shadow: 2px 4px 10px black;
-    background: #ffee94;
+    
+    background: #FFF59D;
     margin-bottom: 2em;
-    border: 2px solid #ffee94;
+    border: 2px solid transparent;
+   
 }
-#box h1
+.box h1
 {
-    position: relative;
-    width: 100%;
+    
+    
+    
     background: #d15e5e;
     color: white;
     padding: .5em;
@@ -71,3 +46,50 @@ a:hover {
     font-weight: bold;
     box-shadow: 2px 2px 5px black;
 }
+
+.intro h2
+{
+    
+    width: auto;
+    background: #fae679;
+    color:  #D32F2F;
+    padding: .5em;
+    text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+    overflow: hidden;
+    box-shadow: 0px 10px 15px -10px black ;
+}
+.intro h1
+{
+    margin: 1em;
+    text-align: center;
+    background: #3d6277;
+    color: #ffee94;
+    padding: .2em;
+    font-size: 4em;
+    box-shadow: 3px 6px 15px -2px black;
+    
+}
+.intro p
+{
+    display: inline-block;
+    font-size: 1.4em;
+ 
+    color: #ffee94;
+    padding: .8em;
+    margin: .5em;
+    box-shadow: 2px 6px 10px black;
+    margin-left: -.7em;
+}
+
+.intro p:nth-of-type(2n+1) { background: #558b95;}
+.intro p:nth-of-type(2n) { background: teal;;}
+
+.intro{
+margin: 3em;
+    border: none;
+    padding-bottom: 2em;
+}
+
+
