@@ -20,7 +20,7 @@
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
-
+        
         // create particles
         triangles = [];
         for(var x = 0; x < 400; x++) {
