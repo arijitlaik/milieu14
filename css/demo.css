@@ -60,7 +60,7 @@ a:hover {
 }
 .intro h1
 {
-    margin: 1em;
+    
     text-align: center;
     background: #3d6277;
     color: #ffee94;
@@ -82,6 +82,14 @@ a:hover {
 
 .intro p:nth-of-type(2n+1) { background: #558b95;}
 .intro p:nth-of-type(2n) { background: teal;;}
+.frame
+{
+width: 90%;
+background: white;
+margin: auto;
+display: block;
+box-shadow: 4px 4px 15px 2px black;
+}
 
 .intro{
 margin: 3em;
