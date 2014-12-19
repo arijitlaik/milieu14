@@ -319,7 +319,7 @@ span.nav-close:before {
 .large-header {
 	position: relative;
     overflow: hidden;
-	background: url(../img/large/hot.png),url(../img/large/cover.svg),linear-gradient(to bottom, #1d1d41 0%, #ff9a50 110%);
+	background: url(../img/large/hot.svg),url(../img/large/cover.svg),linear-gradient(to bottom, #1d1d41 0%, #ff9a50 110%);
     background-size:20%,100% auto,auto;
     background-repeat: no-repeat;
 	background-position: top right,bottom,bottom;
