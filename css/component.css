@@ -370,13 +370,10 @@ transition: all 0.2 ease-in-out;
     transition: all 0.3 ease-in-out;
 }
 
-
-.main-title h1{
-    
-    font-size: 4.2em;
-    font-family: Londrina Outline, sans-serif;
-    text-transform: uppercase;
+.main-title .logo{
+width: 100%
 }
+
 .main-title h2{
   
     font-weight: 200;

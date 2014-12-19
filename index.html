@@ -14,7 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-        <link href='http://fonts.googleapis.com/css?family=Londrina+Outline' rel='stylesheet' type='text/css'>
+        
 		<script src="js/modernizr.custom.js"></script>
           
 		
@@ -24,11 +24,11 @@
 	<body>
         <div class="container">
 			<div class="menu-wrap">
-				<nav class="menu-side">
-					<a href="#">Recent Stories</a>
-					<a href="#">Reading List</a>
-					<a href="#">My Stories</a>
-					<a href="#">Categories</a>
+				<nav class="menu-side" id="close-button">
+					<a href="#large-header" >Home</a>
+					<a href="#about">About</a>
+					<a href="#grid-gallery">Events</a>
+					<a href="#grid-gallery1">Categories</a>
 				</nav>
 			</div>
 			<button class="menu-button" id="open-button"></button>
@@ -43,10 +43,10 @@
                     
                     <span class="main-title">
                        
-                        <h1>Milieu 2015 beta</h1>
+                        <img class="logo" src="img/large/logo.svg">
                         <h2>a <a href="http://pusuc.org" target="_blank">PUSUC </a>initiatve</h2>
                         
-                        <a href="#grid-gallery" class="button">explore</a>
+                        <a href="#about" class="button">explore</a>
                        
                     </span>
                    
@@ -55,7 +55,7 @@
             </div>
             
             <div>
-            <section class="box intro">
+            <section class="box intro" id="about">
                 <h1>Milieu</h1>
                 <img class="frame move" src="img/large/4years.png">
                 <h2>What is Milieu?</h2>
