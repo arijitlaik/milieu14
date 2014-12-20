@@ -22,8 +22,7 @@
 
 	function initEvents() {
 		openbtn.addEventListener( 'click', toggleMenu );
-		openbtn.addEventListener( 'mouseover', toggleMenu );
-        openbtn.addEventListener( 'tap', toggleMenu );
+		
 		if( closebtn ) {
 			closebtn.addEventListener( 'click', toggleMenu );
 		}
