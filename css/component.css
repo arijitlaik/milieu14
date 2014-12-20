@@ -331,6 +331,7 @@ span.nav-close:before {
 
 .main-title {
 	position: absolute;
+    display: block;
 	margin: 0;
 	padding: 0;
 	padding-bottom: 5%;
@@ -339,6 +340,7 @@ span.nav-close:before {
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+    width: 70%;
 }
 
 .demo-3 .main-title {
@@ -371,7 +373,7 @@ transition: all 0.2 ease-in-out;
 }
 
 .main-title .logo{
-width: 100%
+display:block;
 }
 
 .main-title h2{
