@@ -318,29 +318,47 @@ span.nav-close:before {
 /* Header */
 .large-header {
 	position: relative;
+    
     overflow: hidden;
-	background: url(../img/large/hot.svg),url(../img/large/cover.svg),linear-gradient(to bottom, #1d1d41 0%, #ffc1c1 110%);
-    background-size:20%,100% auto,auto;
+	background: linear-gradient(to bottom, #1d1d41 0%, #ffc1c1 110%);
+    background-size:100% auto,auto;
     background-repeat: no-repeat;
-	background-position: top right,bottom,bottom;
+	background-position: bottom,bottom;
 	z-index: 1;
 }
 
 
-
+.baloon
+{
+position: absolute;
+top:0;
+right:0;
+ z-index: 0;
+    width: 20%;
+-webkit-animation-duration: 5s;
+animation-duration: 5s;
+}
 
 .main-title {
 	position: absolute;
-    display: block;
+    display: inline;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 5%;
+
 	text-align: center;
+padding-top: 6em;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
-    width: 70%;
+    width: 100%;
+    height: 100%;
+    background: url(../img/large/cover.svg) no-repeat bottom ;
+    background-size:100% auto;
+    background-attachment: scroll;
+}
+.main-title object{
+    width:70%;;
 }
 
 .demo-3 .main-title {
@@ -364,12 +382,13 @@ span.nav-close:before {
 
 .main-title a{
 color: #6889ff;
-transition: all 0.2 ease-in-out;
+transition: all .5s ease-in-out;
 }
 .main-title a:hover{
     color:white;
-    transition: all 0.2s ease-in-out;
-    transition: all 0.3 ease-in-out;
+    
+    transition: all 0.6 ease-in-out;
+    
 }
 
 .main-title .logo{
