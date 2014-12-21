@@ -126,7 +126,7 @@ path.style.transition = path.style.WebkitTransition =
 path.style.strokeDasharray = length + ' ' + length;
 path.style.strokeDashoffset = length;
 
-path.style.fill ='fff'
+
 // Trigger a layout so styles are calculated & the browser
 // picks up the starting position before animating
 path.getBoundingClientRect();
@@ -135,7 +135,7 @@ path.style.transition = path.style.WebkitTransition =
   'all 10s ease-in-out ';
 // Go!
 path.style.strokeDashoffset = '0';
-path.style.fill ='000'
+
 }
         
 
