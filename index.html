@@ -16,22 +16,36 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		
-        
+        <script src="js/jquery.min.js"></script>
 		<script src="js/modernizr.custom.js"></script>
-          
+         <script>
+$(document).ready(function(){
+  $("#open-button").click(function(){$("nav > a").addClass("animated zoomIn");});
+ $("nav > a").mouseenter(function(){
+     $(this).removeClass("animated zoomIn")
+     $(this).addClass("animated wobble");
+ 
+ });
+
+
+$(".intro > h2").mouseover(
+    function(){$(".intro > p").addClass("animated bounce");});
+});
+</script> 
 		
 		
         
 	</head>
 	<body>
         <div class="container">
-			<div class="menu-wrap">
+			<div class="menu-wrap" >
 				<nav class="menu-side" id="close-button">
-					<a href="#large-header" >Home</a>
-					<a href="#about">About</a>
-					<a href="#grid-gallery">Events</a>
-					<a href="#grid-gallery1">Categories</a>
+					<a href="#large-header"   >Home</a>
+					<a href="#about" >About</a>
+					<a href="#grid-gallery" >Events</a>
+					<a href="#grid-gallery1" >Categories</a>
 				</nav>
+               
 			</div>
 			<button class="menu-button" id="open-button">hello</button>
             
