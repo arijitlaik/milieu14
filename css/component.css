@@ -18,6 +18,7 @@
 
 .grid-gallery figure {
 	margin: 0;
+    
 }
 
 .grid-gallery figure img {
@@ -29,8 +30,22 @@
 .grid-gallery figcaption h3 {
 	margin: 0;
 	padding: 0 0 0.5em;
+    color: #00aae8;
+    text-transform: uppercase;
+    
 }
 
+
+
+.grid-gallery figcaption h4 {
+    background: #3c5e72;
+    color: white;
+   
+    text-align: left;
+    text-transform: capitalize;
+    margin: .3em;
+    padding: .2em;
+}
 .grid-gallery figcaption p {
 	margin: 0;
     
@@ -75,6 +90,7 @@
 .grid figcaption {
 	background: #e4e4e4;
 	padding: 25px;
+   
 }
 
 /* Slideshow style */
@@ -161,7 +177,8 @@
 	height: 100%;
 	background: #fff;
 	border: 50px solid #fff;
-	overflow: hidden;
+	overflow-y: auto;
+    overflow-x: visible;
 }
 
 .slideshow figcaption {
@@ -368,13 +385,18 @@ padding-top: 6em;
 
 .button
 {
-    border: 2px solid white;
+    border: 2px solid #fff;
     text-transform: uppercase;
     position: relative;
     padding: .5em;
     font-weight: bold;
     font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.36);
    
+}
+
+.button:hover{
+    
 }
 
 

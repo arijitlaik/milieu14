@@ -35,7 +35,7 @@ a:hover {
 {
     
     
-    
+    text-align: center;
     background: #d15e5e;
     color: white;
     padding: .5em;
@@ -45,23 +45,33 @@ a:hover {
     box-shadow: 2px 2px 5px black;
 }
 
-.intro h2
-{
+.box h2
+{   
+   
     
     width: auto;
     background: #fae679;
-    color:  #D32F2F;
+    
     padding: .5em;
-    text-align: right;
+    
     font-size: 2em;
     font-weight: bold;
-    overflow: hidden;
+    
     box-shadow: 0px 10px 15px -10px black ;
 }
+
+.intro{
+ position: relative;
+}
+
+.intro h2{
+color:  #D32F2F;
+text-align: right;}
+
 .intro h1
 {
-    
-    text-align: center;
+    top: 0;
+     position: relative;
     background: #3d6277;
     color: #ffee94;
     padding: .2em;
@@ -96,6 +106,7 @@ margin: 3em;
     border: none;
     padding-bottom: 2em;
 }
+
 
 
 
