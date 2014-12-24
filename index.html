@@ -14,10 +14,8 @@
         <link rel="stylesheet" type="text/css" href="css/menu_topside.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-       
-        
-		    
-  <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="/js/directorySlider.js"></script>
         <script src="js/modernizr.custom.js"></script>    
  <script>
      $(document).ready(function(){
@@ -32,6 +30,11 @@
          $(".intro").mouseleave(function(){
              $(".intro > h1").removeClass("stick"); 
          });
+        $('.directorySlider').directorySlider({
+            directory: '/img/thumb/',
+
+        });
+
      });
 </script> 
     </head>
@@ -79,7 +82,8 @@
             <div>
             <section class="box intro" id="about">
                 <h1 id="str">Milieu</h1>
-                
+                <div class="directorySlider"></div>
+
                 <h2>What is Milieu?</h2>
                 <p>Presidency University’s grandest annual cultural festival, Milieu means exactly what the French mean by that word- a grand gathering. It is customary for Milieu to be organized in January, keeping with the tradition of festivity that is post-semester, romantic, Presidency winter. </p>
                 <p>Presidency plays host to a melee of faces, extravaganza and merry making. The effulgence of Milieu, the veritable human ocean of celebrants, maudlin lights and inebriating music consume the campus entirely. Presidency rejoices in other cultural events as well. She boasts in particular of the Freshers’ Welcome, the Derozio Memorial Debate, Rabindra Smarane and other selfsame events. That Milieu is the most awaited and grandest event, even in comparison to the others speaks volumes of its popularity and magnetism. </p>
