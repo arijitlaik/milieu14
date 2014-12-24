@@ -9,9 +9,10 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Raleway';
-    color: #fff;
-    background: #6191ad;
+    color: #4c61ff;
     font-weight: 200;
+    background-color:  #6191ad;
+    background-image:  url(/img/large/bg.svg);
 }
 
 a {
@@ -27,6 +28,7 @@ a:hover {
 
 .box
 {
+     max-width: 1000px;
     background: #FFF59D;
     margin-bottom: 2em;
     margin: 0em;
@@ -49,7 +51,7 @@ a:hover {
 {   
    
     
-   
+  
     background: #fae679;
     
     padding: .5em;
@@ -61,8 +63,11 @@ a:hover {
 }
 
 .intro{
+    
+    display: block;
  position: relative;
-    margin: 2rem;
+     margin-left: auto ;
+  margin-right: auto ;
 }
 
 .intro h2{
