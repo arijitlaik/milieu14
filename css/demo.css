@@ -12,9 +12,11 @@ body {
     color: #4c61ff;
     font-weight: 200;
     background-color:  #6191ad;
-    background-image:  url(/img/large/bg.svg);
+    
 }
-
+.content{
+background-image:  url(/img/large/bg.svg);
+}
 a {
 	color: #f0f0f0;
 	text-decoration: none;
