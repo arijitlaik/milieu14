@@ -24,17 +24,26 @@ a:hover {
 	color: #000;
 }
 
-
+.stick {
+  position:fixed;
+  top:0;
+    margin-top: 0;
+    z-index: 900;
+    width: 100%;
+    text-align: left;
+    display: inline;
+}
 .box
 {
     background: #FFF59D;
     margin-bottom: 2em;
+    margin: 0em;
     box-shadow: 2px 3px 15px  2px black;
 }
 .box h1
 {
     
-    
+  
     text-align: center;
     background: #d15e5e;
     color: white;
@@ -70,8 +79,6 @@ text-align: right;}
 
 .intro h1
 {
-    top: 0;
-     position: relative;
     background: #3d6277;
     color: #ffee94;
     padding: .2em;
@@ -102,7 +109,7 @@ box-shadow: 4px 4px 15px 2px black;
 }
 
 .intro{
-margin: 3em;
+margin: 0;
     border: none;
     padding-bottom: 2em;
 }
