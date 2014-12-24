@@ -15,7 +15,7 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
         <script src="js/jquery.min.js"></script>
-        <script src="/js/directorySlider.js"></script>
+        
         <script src="js/modernizr.custom.js"></script>    
  <script>
      $(document).ready(function(){
@@ -24,16 +24,15 @@
              $(this).removeClass("animated zoomIn")
              $(this).addClass("animated wobble");
          });
-         $(".intro").mouseenter(function(){
-             $(".intro > h1").addClass("stick");
+         $(".box").mouseenter(function(){
+             $(this).addClass("stick");
+             });
+        $(".box").mouseleave(function(){
+             $(this).removeClass("stick");
          });
-         $(".intro").mouseleave(function(){
-             $(".intro > h1").removeClass("stick"); 
-         });
-        $('.directorySlider').directorySlider({
-            directory: '/img/thumb/',
+         
+         
 
-        });
 
      });
 </script> 
@@ -45,11 +44,15 @@
 					<a href="#large-header"   >Home</a>
 					<a href="#about" >About</a>
 					<a href="#sports" >Sports</a>
-					<a href="#grid-gallery1" >Categories</a>
+					<a href="#Cultural Week" >Events</a>
+					<a href="#Day1" >Sponsors</a>
+					<a href="#Footer" >Contact</a>
+					<a href="#Register" id="navreg" >Register</a>
+					
 				</nav>
                
 			</div>
-			<button class="menu-button" id="open-button">hello</button>
+			<button class="menu-button" id="open-button">Menu</button>
             
 			<div class="content-wrap">
 		
@@ -70,7 +73,7 @@
                             
                         <h2>a <a href="http://pusuc.org" target="_blank">PUSUC </a>initiatve</h2>
                         
-                        <a href="#about " class="button animated bounce  ">explore</a>
+                        <a href="#about " class="button animated bounce  ">explore in pre release</a>
                             
                        
                     </div>
@@ -83,7 +86,6 @@
             <section class="box intro" id="about">
                 <h1 id="str">Milieu</h1>
                 <div class="directorySlider"></div>
-
                 <h2>What is Milieu?</h2>
                 <p>Presidency University’s grandest annual cultural festival, Milieu means exactly what the French mean by that word- a grand gathering. It is customary for Milieu to be organized in January, keeping with the tradition of festivity that is post-semester, romantic, Presidency winter. </p>
                 <p>Presidency plays host to a melee of faces, extravaganza and merry making. The effulgence of Milieu, the veritable human ocean of celebrants, maudlin lights and inebriating music consume the campus entirely. Presidency rejoices in other cultural events as well. She boasts in particular of the Freshers’ Welcome, the Derozio Memorial Debate, Rabindra Smarane and other selfsame events. That Milieu is the most awaited and grandest event, even in comparison to the others speaks volumes of its popularity and magnetism. </p>
@@ -221,10 +223,12 @@ Indrajit Sengupta – 8820431756, Prantik Basu – 9674703754, Loknath Chakrabor
 <h4>Team capacity : 5 (3+2)players (compulsory)</h4>
 
 <h4>Entry fee : 100/- per player</h4>
+                                    
 								</figcaption>
-								
-						
-					</ul>
+								<img src="img/thumb/tt.jpg" alt="img01"/>
+                            </figure>
+                        </li>
+                                </ul>
 					<nav>
 						<span class="icon nav-prev"></span>
 						<span class="icon nav-next"></span>
@@ -240,7 +244,7 @@ Indrajit Sengupta – 8820431756, Prantik Basu – 9674703754, Loknath Chakrabor
             <!-- // grid-gallery -->
 		<div id="grid-gallery1" class="grid-gallery">
 				<section class="grid-wrap box">
-					<h1>Day 1: 14th Jan</h1>
+					<h1>Day 1: 14th Jan/Cultural Week</h1>
                     <ul class="grid">
 						<li class="grid-sizer"></li><!-- for Masonry column width -->
 						<li>

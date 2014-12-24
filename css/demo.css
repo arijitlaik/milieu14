@@ -9,9 +9,9 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Raleway';
-    color: #1e76a8;
-    background: #7fbbde;
-    font-weight: 300;
+    color: #fff;
+    background: #6191ad;
+    font-weight: 200;
 }
 
 a {
@@ -24,41 +24,32 @@ a:hover {
 	color: #000;
 }
 
-.stick {
-  position:fixed;
-  top:0;
-    margin-top: 0;
-    z-index: 900;
-    width: 100%;
-    text-align: left;
-    display: inline;
-}
+
 .box
 {
     background: #FFF59D;
     margin-bottom: 2em;
     margin: 0em;
-    box-shadow: 2px 3px 15px  2px black;
+    box-shadow: 2px 3px 10px black;
 }
 .box h1
 {
     
-  
     text-align: center;
     background: #d15e5e;
     color: white;
     padding: .5em;
     text-align: right;
-    font-size: 3em;
+    font-size: 2.5rem;
     font-weight: bold;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 4px black;
 }
 
 .box h2
 {   
    
     
-    width: auto;
+   
     background: #fae679;
     
     padding: .5em;
@@ -66,54 +57,59 @@ a:hover {
     font-size: 2em;
     font-weight: bold;
     
-    box-shadow: 0px 10px 15px -10px black ;
+    box-shadow: 0px 10px 10px -10px black ;
 }
 
 .intro{
  position: relative;
+    margin: 2rem;
 }
 
 .intro h2{
 color:  #D32F2F;
-text-align: right;}
+    text-align: center;
+}
 
 .intro h1
-{
-    background: #3d6277;
-    color: #ffee94;
-    padding: .2em;
-    font-size: 4em;
-    box-shadow: 3px 6px 15px -2px black;
-    
+{   
+     background: #3d6277;
+    color: #ffee94;    
 }
 .intro p
 {
     display: inline-block;
     font-size: 1.4em;
     color: #ffe765;
-    padding: .8em;
-    margin: .5em;
-    box-shadow: 2px 6px 10px black;
-    margin-left: -.7em;
+    padding: 1em;
+    box-shadow: 1px 1px 5px  black;
 }
 
-.intro p:nth-of-type(2n+1) { background: #558b95;}
-.intro p:nth-of-type(2n) { background: teal;;}
+.intro p:nth-of-type(2n+1) { background: rgba(85, 139, 149, 0.9);}
+.intro p:nth-of-type(2n) { background: rgba(44, 68, 82, 0.9);;}
 .frame
 {
 width: 90%;
 background: white;
 margin: auto;
 display: block;
-box-shadow: 4px 4px 15px 2px black;
+box-shadow: 4px 4px 10px 2px black;
 }
 
 .intro{
-margin: 0;
+
     border: none;
     padding-bottom: 2em;
 }
 
-
-
+.stick > h1 
+{
+    position:fixed;
+   top:0;
+    right: 0;
+    margin-top: 0;
+    z-index: 900;
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
 

@@ -388,7 +388,7 @@ padding-top: 2rem;
     border: 2px solid #fff;
     text-transform: uppercase;
     position: relative;
-    padding: .5em;
+    padding: .5rem;
     font-weight: bold;
     font-size: 1.5em;
     background: rgba(0, 0, 0, 0.36);
@@ -430,15 +430,5 @@ width: 100%;
 position: absolute;
     bottom: 0;
     overflow: hidden;
-}
-
-@media only screen and (max-width : 768px) {
-	
-	.demo-3 .main-title, 
-	{
-		font-size: 1em;
-	}
-    
-
 }
 
