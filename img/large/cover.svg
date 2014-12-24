@@ -32,7 +32,7 @@ path.style.transition = path.style.WebkitTransition =
 path.style.strokeDasharray = length + ' ' + length;
 path.style.strokeDashoffset = length;
 
-
+path.style.fillOpacity=0;
 // Trigger a layout so styles are calculated & the browser
 // picks up the starting position before animating
 path.getBoundingClientRect();
@@ -42,7 +42,7 @@ path.style.transition = path.style.WebkitTransition =
 // Go!
 path.style.strokeDashoffset = '0';
 
-
+path.style.fillOpacity=1;
         
 
 ]]>
