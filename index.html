@@ -12,12 +12,12 @@
 		<link rel="shortcut icon" href="../favicon.ico">
         
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
-        
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/menu_topside.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
         <script src="js/jquery.min.js"></script>
-        
+        <script src="js/jquery.bxslider.min.js"></script>
         <script src="js/modernizr.custom.js"></script>    
  <script>
      $(document).ready(function(){
@@ -32,6 +32,11 @@
         $(".box").mouseleave(function(){
              $(this).removeClass("stick");
          });
+         $('.bxslider').bxSlider({
+           
+           auto: true,
+           autoControls: true,
+        });
          
          
 
@@ -87,7 +92,19 @@
             <div>
             <section class="box intro" id="about">
                 <h1 id="str">Milieu</h1>
-                <div class="directorySlider"></div>
+                <ul class="bxslider" id="bxsl">  
+                                    <li><img src="img/thumb/badminton.jpg"></li>
+<li><img src="img/thumb/Battle of the Bands.jpg"></li>
+<li><img src="img/thumb/carrom.jpg"></li>
+<li><img src="img/thumb/chess.jpg"></li>
+<li><img src="img/thumb/creative writing.jpeg"></li>
+<li><img src="img/thumb/cricket.jpg"></li>
+<li><img src="img/thumb/Debate.jpg"></li>
+<li><img src="img/thumb/football.jpg"></li>
+<li><img src="img/thumb/Half a minute.jpg"></li>
+<li><img src="img/thumb/Photography.jpg"></li>
+<li><img src="img/thumb/tt.jpg"></li>
+                                </ul>
                 <h2>What is Milieu?</h2>
                 <p>Presidency University’s grandest annual cultural festival, Milieu means exactly what the French mean by that word- a grand gathering. It is customary for Milieu to be organized in January, keeping with the tradition of festivity that is post-semester, romantic, Presidency winter. </p>
                 <p>Presidency plays host to a melee of faces, extravaganza and merry making. The effulgence of Milieu, the veritable human ocean of celebrants, maudlin lights and inebriating music consume the campus entirely. Presidency rejoices in other cultural events as well. She boasts in particular of the Freshers’ Welcome, the Derozio Memorial Debate, Rabindra Smarane and other selfsame events. That Milieu is the most awaited and grandest event, even in comparison to the others speaks volumes of its popularity and magnetism. </p>
@@ -246,25 +263,20 @@ Indrajit Sengupta – 8820431756, Prantik Basu – 9674703754, Loknath Chakrabor
             <!-- // grid-gallery -->
 		<div id="grid-gallery1" class="grid-gallery">
 				<section class="grid-wrap box">
-					<h1>Day 1: 14th Jan/Cultural Week</h1>
+					<h1>Cultural Week</h1>
                     <ul class="grid">
 						<li class="grid-sizer"></li><!-- for Masonry column width -->
-						<li>
-							<figure>
-								<img src="img/thumb/4.png" alt="img01"/>
-								<figcaption><h3>Debate</h3><h4>@Derozio hall</h4><p>more..</p></figcaption>
-							</figure>
-						</li>
-                        <li>
-							<figure>
-								<img src="img/thumb/4.png" alt="img01"/>
-								<figcaption><h3>Half a minute</h3><h4>@Derozio hall</h4><p>more..</p></figcaption>
-							</figure>
-						</li>
+                        <li><figure><img src="img/thumb/Battle%20of%20the%20Bands.jpg" alt="img01"/><figcaption><h3>Battle of the Bands</h3><h4>@Derozio hall</h4><p>more..</p></figcaption></figure></li>
+						<li><figure><img src="img/thumb/Debate.jpg" alt="img01"/><figcaption><h3>Debate</h3><h4>@Derozio hall</h4><p>more..</p></figcaption></figure></li>
+						<li><figure><img src="img/thumb/Photography.jpg" alt="img01"/><figcaption><h3>Photography</h3><h4>@Derozio hall</h4><p>more..</p></figcaption></figure></li>
+						<li><figure><img src="img/thumb/creative%20writing.jpeg" alt="img01"/><figcaption><h3>Creative Writing</h3><h4>@Derozio hall</h4><p>more..</p></figcaption></figure></li>
+						<li><figure><img src="img/thumb/404.jpg" alt="img01"/><figcaption><h3>Street Play</h3><h4>@Derozio hall</h4><p>more..</p></figcaption></figure></li> 
+						<li><figure><img src="img/thumb/Half%20a%20minute.jpg" alt="img01"/><figcaption><h3>Half-A-Minute</h3><h4>@Derozio hall</h4><p>more..</p></figcaption></figure></li> 
+                        
 				<!--    <li>
 							<figure>
 								<img src="img/thumb/1.png" alt="img01"/>
-								<figcaption><h3>D2Letterpress asymmetrical</h3><h4></h4><p>Chillwave hoodie ea gentrify aute sriracha consequat.</p></figcaption>
+								<<figcaption><h3></h3><h4>@Derozio hall</h4><p>more..</p></figcaption>
 							</figure>
 						</li>
 // grid-wrap -->
@@ -275,28 +287,99 @@ Indrajit Sengupta – 8820431756, Prantik Basu – 9674703754, Loknath Chakrabor
 						<li>
 							<figure>
 								<figcaption>
-									<h3>Debate</h3>
-									<p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+								<h3>Battle of the Bands: 5th Jan, 2015</h3>
+
+<h4>Team: 5 members (Min)- 8members (Max)</h4>
+
+<h4>Team Capacity: 2 teams per institution.</h4>
+
+<h4>Registration fees: 1200/- per team.</h4>
+
+<p>No Cross College Teams allowed.</p>
+<h4>Contact: Nilabja – 9674436078</h4>
+The Prelims start on 5th and the event continues.	
 								</figcaption>
-								<img src="img/large/4.png" alt="img01"/>
+								<img src="img/thumb/Battle%20of%20the%20Bands.jpg" alt="img01"/>
 							</figure>
 						</li>
                         <li>
 							<figure>
 								<figcaption>
-									<h3>Half a minute</h3>
-									<p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+								<h3>Inter College Debate Competition: 14th Jan, 2015.</h3>
+
+<h4>Team: 2 members</h4>
+
+<h4>Team capacity : 2 teams per institution (No cross college team allowed )</h4>
+
+<p>Registration fees : 300/- per team.</p>
+<h4>Contact : Navojit De - 9830364307</h4>
 								</figcaption>
-								<img src="img/large/4.png" alt="img01"/>
+								<img src="img/thumb/Debate.jpg" alt="img01"/>
+							</figure>
+						</li>
+                          <li>
+							<figure>
+								<figcaption>
+									<h3>Inter College Photography Competition: 14th Jan, 2015.</h3>
+
+<p>No Team Capacity. 
+No Phone Cameras Permitted.</p>
+
+<h4>Registration fees:  N.A.</h4>
+								</figcaption>
+								<img src="img/thumb/Photography.jpg" alt="img01"/>
+							</figure>
+						</li>
+                        <li>
+							<figure>
+								<figcaption>
+									<h3>Inter College Creative Writing Competition</h3>
+
+<p>(English/Hindi/Bengali) : 14th Jan, 2015.</p>
+
+<h4>Team: 3 participants per institution.</h4>
+
+<p>No registration fees.</p>
+								</figcaption>
+								<img src="img/thumb/creative%20writing.jpeg" alt="img01"/>
+							</figure>
+						</li>
+                        <li>
+							<figure>
+								<figcaption>
+									<h3>Inter College Street Play Competition : 14th Jan, 2015.</h3>
+
+<h4>Team: 15 Members maximum.</h4>
+
+<h4>Team Capacity: 1 Team per institution.</h4>
+
+<h4>Registration fees: 1000/- Per team.</h4>
+
+                                    <h4>Contact: Sohang Kundu – 8017252389</h4>
+								</figcaption>
+								<img src="img/thumb/404.jpg" alt="img01"/>
+							</figure>
+						</li>
+                        <li>
+							<figure>
+								<figcaption>
+								<h3>Inter College Half-A-Minute : 15th Jan, 2015.</h3>
+
+<h4>Team Capacity: 5(maximum) participants per institution.</h4>
+
+<h4>Registration fees: 100/- per institution.</h4>
+
+<p>Contact: Navojit De – 9830364307</p>	
+								</figcaption>
+								<img src="img/thumb/Half%20a%20minute.jpg" alt="img01"/>
 							</figure>
 						</li>
 				<!--    <li>
 							<figure>
 								<figcaption>
-									<h3>Vice velit chia</h3>
-									<p>Chillwave Echo Park Etsy organic Cosby sweater seitan authentic pour-over. Occupy wolf selvage bespoke tattooed, cred sustainable Odd Future hashtag butcher.</p>
+									
 								</figcaption>
-								<img src="img/large/2.png" alt="img02"/>
+								<img src="img/thumb/Battle%20of%20the%20Bands.jpg" alt="img01"/>
 							</figure>
 						</li>-->
 					</ul>
@@ -307,7 +390,8 @@ Indrajit Sengupta – 8820431756, Prantik Basu – 9674703754, Loknath Chakrabor
 						<span class="icon nav-close"></span>
 					</nav>
 					<div class="info-keys icon">Navigate with arrow keys</div>
-				</section><!-- // slideshow -->
+				</section>
+
                 </div>
                 
                   <!-- /////////////day 2 //////////////////////-->         
