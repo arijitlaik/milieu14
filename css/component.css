@@ -317,23 +317,7 @@ span.nav-close:before {
 	}
 
 }
-@media screen and (max-width: 50em) {
-	.grid li {
-		width: 50%;
-	}
-}
-@media screen and (max-width: 35em) {
-	.grid li {
-		width: 100%;
-	}
-}
 
-@media screen and (max-width: 24em) {
-	.grid li {
-		width: 100%;
-	}
-    body{font-size: .8}
-}
 
 /* Header */
 .large-header {
@@ -435,3 +419,21 @@ position: absolute;
     overflow: hidden;
 }
 
+@media screen and (max-width: 50em) {
+	.grid li {
+		width: 50%;
+	}
+   
+}
+@media screen and (max-width: 35em) {
+	.grid li {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 15em) {
+	.grid li {
+		width: 100%;
+	}
+    *{font-size: 8px}
+}
