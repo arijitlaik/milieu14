@@ -150,7 +150,16 @@ Enjoy responsibly!
     padding: 0.2em 0;
 }
 
-
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+p {
+    line-height: 1.33em;
+    color: #7E7E7E;
+}
+h1 {
+    color: #EEEEEE;
+}
 
 #loader-wrapper {
     position: fixed;
@@ -165,18 +174,19 @@ Enjoy responsibly!
     position: relative;
     left: 50%;
     top: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
+    width: 400px;
+    height: 400px;
+    margin: -200px 0 0 -200px;
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #3498db;
 
-    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
-    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 
     z-index: 1001;
 }
+
 
     #loader:before {
         content: "";
@@ -296,7 +306,14 @@ Enjoy responsibly!
         color: #222222;
     }
 
- 
+    #content {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 80%;
+        max-width: 978px;
+    }  
+
+
 
 
 
