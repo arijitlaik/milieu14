@@ -324,10 +324,9 @@ span.nav-close:before {
 	position: relative;
     
     overflow: hidden;
-	background: rgba(33, 33, 33, 0.92);
-    background-size:100% auto,auto;
-    background-repeat: no-repeat;
-	background-position: bottom,bottom;
+	
+    background:#343434;
+   
 	z-index: 1;
 }
 
