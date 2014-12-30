@@ -324,7 +324,7 @@ span.nav-close:before {
 	position: relative;
     
     overflow: hidden;
-	background: linear-gradient(to bottom, #1d1d41 0%, #ffc1c1 110%);
+	background: rgba(33, 33, 33, 0.92);
     background-size:100% auto,auto;
     background-repeat: no-repeat;
 	background-position: bottom,bottom;

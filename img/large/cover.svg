@@ -38,7 +38,7 @@ path.style.fillOpacity=0;
 path.getBoundingClientRect();
 // Define our transition
 path.style.transition = path.style.WebkitTransition =
-  'all 10s cubic-bezier(1, 0, .54, .91) ';
+  'all 20s ease-in-out';
 // Go!
 path.style.strokeDashoffset = '0';
 
