@@ -325,7 +325,7 @@ span.nav-close:before {
     
     overflow: hidden;
 	
-    background:#343434;
+background-image: linear-gradient(to bottom, #000000 0%, rgba(54, 101, 123, 0.56) 100%);
    
 	z-index: 1;
 }
