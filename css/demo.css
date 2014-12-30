@@ -90,10 +90,11 @@ color:  #D32F2F;
     color: #ffe765;
     padding: 1em;
     box-shadow: 1px 1px 5px  black;
+    text-align: justify;
 }
 
-.intro p:nth-of-type(2n+1) { background: rgba(85, 139, 149, 0.9);}
-.intro p:nth-of-type(2n) { background: rgba(44, 68, 82, 0.9);;}
+.intro p:nth-of-type(2n+1) { background: rgba(85, 139, 149, 0.6);}
+.intro p:nth-of-type(2n) { background: rgba(44, 68, 82, 0.6);;}
 .frame
 {
 width: 90%;
