@@ -325,7 +325,7 @@ span.nav-close:before {
     
     overflow: hidden;
 	
-background-image: linear-gradient(to bottom, #000000 0%, rgba(54, 101, 123, 0.56) 100%);
+background-image: linear-gradient(to bottom, #000000 0%, rgba(54, 101, 123, 0.56) 100%),url(../img/large/cover.svg);
    
 	z-index: 1;
 }
@@ -413,10 +413,10 @@ display:block;
 }
 
 .linefd{
-width: 100%;
+
 
 position: absolute;
-    bottom: 0;
+  top: 0;
     overflow: hidden;
 }
 
