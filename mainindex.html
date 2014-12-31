@@ -69,11 +69,20 @@
               <img class=" animated  bounceInUp baloon " src="img/large/hot.svg"></img>
               <object type="image/svg+xml" data="img/large/cover.svg" class="linefd"></object> 
               <canvas id="demo-canvas"></canvas>
+              
               <div class="main-title ">
+        
                 <object type="image/svg+xml" data="img/large/logo.svg"></object>
                   <h1>Celebrate Presidency</h1>
                 <h2>a <a href="http://pusuc.org" target="_blank">PUSUC </a>initiatve</h2>
-                <a href="#sports " class="button animated bounce  ">explore in pre release</a>
+                <a href="#large-header"  class="button ">Home</a>
+          <a href="#about" class="button " >About</a>
+          <a href="#sports" class="button " >Sports</a>
+          <a href="#culture" class="button " >Culturals</a>
+          <a href="#sponsors" class="button " >Sponsors</a>
+          <a href="#contact" class="button " >Contact</a>
+          <a href="register.html" class="button" >Register</a>
+                  
               </div>
             </div>
           </div>
@@ -630,6 +639,34 @@
               <h2>A representative meeting will be held on 2nd January, 2015, in the Union Room, at around 3 o’ clock in the afternoon.
                 We are proud to invite your institution to be a part of an exciting sports week and an enthralling cultural extravaganza. We hope to see you at MILIEU 2015. 
               </h2>
+                
+<div id="container" style="width:100%;">
+  <div class="fb-like-box" data-href="https://www.facebook.com/pages/Milieu-15/409301912566223" data-width="292" data-show-faces="false" data-stream="true" data-header="true"></div>
+</div>
+ 
+<div id="fb-root"></div>
+<script>
+/*
+ * REMEMBER TO CHANGE TO YOUR APP ID AND CHANGE data-href TO SUIT YOU
+ */
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+$(window).bind("load resize", function(){    
+  var container_width = $('#container').width();    
+    $('#container').html('<div class="fb-like-box" ' + 
+    'data-href="https://www.facebook.com/pages/Milieu-15/409301912566223"' +
+    ' data-width="' + container_width + '" data-height="730" data-show-faces="false" ' +
+    'data-stream="true" data-header="true"></div>');
+    FB.XFBML.parse( );    
+}); 
+</script>
               <footer class="info">
                 <h2>Contact</h2>
                 <h4>Joint Convenors, MILIEU 2015</h4>
@@ -643,7 +680,8 @@
                 <h2>Web and techinical</h2>
                 <h4>Arijit Laik laikarijit_at_gmail_dot_com</h4>
                 <h2>Please Note</h2>
-                <p>IN CASE OF CULTURAL EVENTS, A STUDENT CAN PARTICIPATE IN MAXIMUM OF TWO EVENTS PER DAY.
+                  <p>ALL PAYMENTS ARE TO BE MADE ON SPOT AT THE REGISTARTION KIOSK </br>
+                  IN CASE OF CULTURAL EVENTS, A STUDENT CAN PARTICIPATE IN MAXIMUM OF TWO EVENTS PER DAY.
                   NO CROSS COLLEGE TEAMS ARE ALLOWED</br>
                   ALL STUDENTS AND PARTICIPANTS FOR RESPECTIVE EVENTS MUST CARRY THEIR VALID INSTITUTIONAL ID CARDS
                 </p>

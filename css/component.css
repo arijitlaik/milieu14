@@ -370,11 +370,11 @@ padding-top: 2rem;
 
 .button
 {
-    border: 2px solid #fff;
-    text-transform: uppercase;
+   
+   
     position: relative;
-    padding: .5rem;
-    font-weight: bold;
+    margin: .5em;
+    font-weight: lighter;
     font-size: 1.5em;
     background: rgba(0, 0, 0, 0.36);
    
@@ -411,8 +411,9 @@ display:block;
    
 }
 .main-title > h1 {
-    color: #006ac6;
-    font-size: 4rem;
+    color: #3c86c7;
+    text-shadow: 2px 1px 30px rgba(255, 255, 255, 0.66);
+    font-size: 4em;
     font-weight: lighter;
 }
 
@@ -429,18 +430,30 @@ position: absolute;
 	.grid li {
 		width: 50%;
 	}
+    .main-title > h1 {
+    font-size: 3.6em;
+    }
    
 }
 @media screen and (max-width: 35em) {
 	.grid li {
 		width: 100%;
 	}
+    .main-title > h1 {
+    font-size: 3.2em;
+    }
 }
 
-@media screen and (max-width: 15em) {
+@media screen and (max-width: 400px) {
 	.grid li {
 		width: 100%;
 	}
+    .main-title > h1 {
+    font-size: 3em;
+    }
+}
+
    
 }
+
 
