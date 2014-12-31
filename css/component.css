@@ -324,9 +324,8 @@ span.nav-close:before {
 	position: relative;
     
     overflow: hidden;
-	
-background-image: linear-gradient(to bottom, #000000 0%, rgba(54, 101, 123, 0.56) 100%),url(../img/large/cover.svg);
-   
+	background: rgba(0, 0, 0, 0.82);
+    background-repeat: no-repeat;
 	z-index: 1;
 }
 
@@ -411,12 +410,18 @@ display:block;
     text-shadow: 0 0 20px black;
    
 }
+.main-title > h1 {
+    color: #006ac6;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
 
 .linefd{
 
 
 position: absolute;
-  top: 0;
+  bottom: 0;
     overflow: hidden;
 }
 
@@ -438,3 +443,4 @@ position: absolute;
 	}
    
 }
+
