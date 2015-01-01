@@ -17,6 +17,7 @@ body {
 }
 .content{
 background-image:  url(../img/large/bg.svg);
+    background-attachment: fixed;
 }
 a {
 	color: #ff4f4f;
