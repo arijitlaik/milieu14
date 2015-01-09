@@ -39,6 +39,12 @@ a:hover {
     margin: 0em;
     box-shadow: 2px 3px 10px black;
 }
+.wrapper
+{
+    width: 100%;
+    margin: 0em;
+  
+}
 .box h1
 {
     
