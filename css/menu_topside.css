@@ -1,5 +1,4 @@
-html, 
-body, 
+ 
 .container, 
 .content-wrap {
 	overflow: hidden;
@@ -82,7 +81,10 @@ body,
 
 /* Menu */
 .menu-wrap {
-	position: absolute;
+	position: fixed;
+    top:0;
+    overflow-y: auto;
+    height: 100%;
 	font-weight: lighter;
     width:auto;
 	opacity: 0;
