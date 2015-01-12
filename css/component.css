@@ -30,8 +30,8 @@
 .grid-gallery figcaption h3 {
 	margin: 0;
 	padding: 0 0 0.5em;
-    color: #3c5e72;
-    background: #b9ffe9;
+    color: #4d568b;
+    background: #fff;
     text-transform: uppercase;
     font-size: 1.2em;
     text-align: center;
@@ -316,6 +316,7 @@ span.nav-close:before {
 	.info-keys {
 		display: none;
 	}
+    
 
 }
 
@@ -434,6 +435,10 @@ position: absolute;
 	}
     .main-title > h1 {
     font-size: 3.6em;
+    }
+    .eve >h2
+    {
+    font-size: 1.8em;
     }
    
 }
