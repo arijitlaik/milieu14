@@ -194,7 +194,7 @@ path.style.transition = path.style.WebkitTransition =
   'all 10s ease-in-out ';
 // Go!
 path.style.strokeDashoffset = '0';
-path.style.fillOpacity=1;
+path.style.fillOpacity=.5;
 }
         
 
