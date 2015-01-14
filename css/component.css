@@ -415,7 +415,7 @@ display:block;
 }
 .main-title > h1 {
     color: #3c86c7;
-    text-shadow: 2px 1px 30px rgba(255, 255, 255, 0.66);
+    text-shadow: 2px 1px 15px rgba(255, 255, 255, 0.66);
     font-size: 4em;
     font-weight: lighter;
 }
